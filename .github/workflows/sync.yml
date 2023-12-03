@@ -2,6 +2,17 @@ name: Upstream Sync
 
 permissions:
   contents: write
+  actions: write
+  checks: write
+  deployments: write
+  discussions: write
+  issues: write
+  pages: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: write
+  statuses: write
 
 on:
   schedule:
